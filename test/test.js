@@ -1,4 +1,4 @@
-const Memory = require('../browser')
+const Memory = require('../src/Memory').default
 const driver = new Memory()
 
 describe('Storage', () => {
